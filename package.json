@@ -1,0 +1,25 @@
+{
+  "name": "scrol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass main.scss style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel watch:sass devserver"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samandarqodirqulov/scroll-animation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samandarqodirqulov/scroll-animation/issues"
+  },
+  "homepage": "https://github.com/samandarqodirqulov/scroll-animation#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
